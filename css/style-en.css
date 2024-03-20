@@ -1,0 +1,167 @@
+.sidenav
+{
+    left: 0;
+}
+.side_ul .mob_pros:after
+{
+    right: 20px;
+}
+.sidenav .closebtn
+{
+    right: 15px;
+}
+.sidenav .mob_menu .mob_item
+{
+    margin-left: 60px;
+}
+.main_nav
+{
+    left: 80px;
+}
+.recomend > li:last-child
+{
+    margin-left: 28px;
+}
+.i_lang
+{
+    margin-right: 4px;
+}
+.sam_menu
+{
+    left: -16px;
+}
+.my_account .sam_menu:before
+{
+    left: 30px;
+}
+.lang .sam_menu:before
+{
+    left: 22px;
+}
+.changed
+{
+    left: 0;
+}
+.search_icon
+{
+    right: 25px;
+}
+.mainslider .owl-nav .owl-next
+{
+	left: 107px;
+}
+.mainslider .owl-nav .owl-prev
+{
+    right: 107px;
+}
+.mainslider .owl-nav button.owl-next:after,.pro_slider .owl-nav button.owl-next:after,.mainslider .owl-nav button.owl-prev:after,.pro_slider .owl-nav button.owl-prev:after
+{
+    right: 15px;
+    content: '\e875';
+}
+.mainslider .owl-nav button.owl-prev:after,.pro_slider .owl-nav button.owl-prev:after
+{
+    content: '\e876';
+}
+.pro_slider .owl-nav button.owl-next
+{
+    
+    left: -64px;
+}
+.pro_slider .owl-nav button.owl-prev
+{
+    right: -64px;
+}
+.price
+{
+    direction: ltr;
+}
+.pr_act
+{
+    direction: ltr;
+}
+.im_cap > li:last-child
+{
+    margin-left: 18px;
+}
+.about_ran
+{
+    padding-right: 30px;
+}
+.mail_content .form-group .check
+{
+    right: 5px;
+}
+footer .social > a
+{
+    margin-right: 3px;
+    margin-bottom: 6px;
+}
+.mad_in
+{
+    text-align: right;
+}
+
+
+@media (min-width:992px) and (max-width:1199px)	
+{
+    .main_nav
+    {
+        left: 0;
+    }
+    .pro_slider .owl-nav button.owl-next
+    {
+
+         left: -10px;
+    }
+    .pro_slider .owl-nav button.owl-prev
+    {
+
+        right: -10px;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px)	
+{
+    .main_nav
+    {
+        left: 0;
+    }
+}
+
+
+@media (max-width:991px)
+{
+    .lang.sm
+    {
+        left: 30px;
+    }
+    footer .title.sm_title,.fast_links > ul
+	{
+        text-align: left;
+	}
+    .fast_links .sm_title:after
+    {
+        right: 20px;
+    }
+    .about_ran
+    {
+        padding-left: 30px;
+    }
+}
+
+@media (max-width:767px)
+{
+    .lang.sm
+    {
+        left: 30px;
+    }
+     header .recomend
+    {
+        direction: rtl;
+    }
+    .recomend > li:first-child
+    {
+        padding-right: 0;
+    }
+}

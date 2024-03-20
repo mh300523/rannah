@@ -1,0 +1,163 @@
+.sidenav
+{
+    right: 0;
+}
+.side_ul .mob_pros:after
+{
+    left: 20px;
+}
+.sidenav .closebtn
+{
+    left: 15px;
+}
+.sidenav .mob_menu .mob_item
+{
+    margin-right: 60px;
+}
+.main_nav
+{
+    right: 80px;
+}
+.nav_bar > li > a:before,.pro_name:before,.fast_links > ul > li > a:before
+{
+    right: 0;
+}
+.recomend > li:last-child
+{
+    margin-right: 28px;
+}
+.i_lang
+{
+    margin-left: 4px;
+}
+.sam_menu
+{
+    right: -16px;
+}
+.my_account .sam_menu:before
+{
+    right: 30px;
+}
+.lang .sam_menu:before
+{
+    right: 22px;
+}
+.changed
+{
+    right: 0;
+}
+.search_icon
+{
+    left: 25px;
+}
+.mainslider .owl-nav .owl-next
+{
+	right: 107px;
+}
+.mainslider .owl-nav .owl-prev
+{
+    left: 107px;
+}
+.mainslider .owl-nav button.owl-next:after,.pro_slider .owl-nav button.owl-next:after,.mainslider .owl-nav button.owl-prev:after,.pro_slider .owl-nav button.owl-prev:after
+{
+    left: 15px;
+    content: '\e876';
+}
+.mainslider .owl-nav button.owl-prev:after,.pro_slider .owl-nav button.owl-prev:after
+{
+    content: '\e875';
+}
+.pro_slider .owl-nav button.owl-next
+{
+    
+    right: -64px;
+}
+.pro_slider .owl-nav button.owl-prev
+{
+    left: -64px;
+}
+.im_cap > li:last-child
+{
+    margin-right: 18px;
+}
+.about_ran
+{
+    padding-left: 30px;
+}
+.mail_content .form-group .check
+{
+    left: 5px;
+}
+footer .social > a
+{
+    margin-left: 3px;
+    margin-bottom: 6px;
+}
+.mad_in
+{
+    text-align: left;
+}
+
+
+@media (min-width:992px) and (max-width:1199px)	
+{
+    .main_nav
+    {
+        right: 0;
+    }
+    .pro_slider .owl-nav button.owl-next
+    {
+
+         right: -10px;
+    }
+    .pro_slider .owl-nav button.owl-prev
+    {
+
+        left: -10px;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px)	
+{
+    .main_nav
+    {
+        right: 0;
+    }
+}
+
+
+@media (max-width:991px)
+{
+    .lang.sm
+    {
+        right: 30px;
+    }
+    footer .title.sm_title,.fast_links > ul
+	{
+        text-align: right;
+	}
+    .fast_links .sm_title:after
+    {
+        left: 20px;
+    }
+}
+
+@media (max-width:767px)
+{
+    .lang.sm
+    {
+        right: 30px;
+    }
+    .im_cap > li:last-child 
+    {
+        margin-right: 0;
+    }
+     header .recomend
+    {
+        direction: ltr;
+    }
+    .recomend > li:first-child
+    {
+        padding-left: 0;
+    }
+}

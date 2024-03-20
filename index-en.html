@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<!-- for internet explorere -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<!--(the most important line) for mobile first -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <link rel="icon" type="image/png" href="images/favicon.png">
+		<title>Rannah</title>
+		<link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/bootstrap-select.min.css">
+		<link rel="stylesheet" href="css/owl.carousel.min.css">
+		<link rel="stylesheet" href="css/all.min.css">
+		<link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/style-en.css">
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>-->
+		<script src="js/html5shiv.min.js"></script>
+		<script src="js/respond.min.js"></script>
+        <script src="js/jquery-3.5.1.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+        <script src="js/bootstrap-select.min.js"></script>
+		<script src="js/owl.carousel.min.js"></script>
+		<script src="js/plug.js"></script>
+	</head>
+	<body>
+	        <div class="over_click"></div>
+	        <!--------------- start header ---------------->
+        <header> 
+            <div class="top_nav">
+                <div class="container">
+                    <div class="top_bar">
+                        <div class="logo">
+                            <a href="#"><img class="img-responsive" src="images/logo.png" alt="logo"></a>
+                        </div>
+                        <div class="main_nav">
+                            <ul class="nav_bar list-unstyled list-inline">
+                                <li><a href="#" data-text="Home" >Home</a></li>
+                                <li><a href="#" data-text="Rannah Products"> Rannah Products </a></li>
+                                <li><a href="#" data-text="Rannah Accessories">Rannah Accessories </a></li>
+                                <li><a href="#" data-text="Offers">Offers</a></li>
+                            </ul>
+                        </div>
+                        <ul class="recomend list-unstyled list-inline">
+                            <li class="mob_bar">
+                                <button class="list" id="navbtn">
+                                    <span class="lnr lnr-menu"></span>
+                                </button>
+                            </li>
+                            <li class="srch">
+                                <a href="#" class="re_btn" data-toggle="modal" data-target=".bs-example-modal-sm">
+                                    <span class="lnr lnr-magnifier"></span>
+                                </a>
+                            </li>
+                            <li class="my_account lg dropdown">
+                                <a class="re_btn dropdown-toggle" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                    <span class="lnr lnr-user"></span>
+                                </a>
+                                <ul class="dropdown-menu sam_menu">
+                                    <li><a href="#">Log In</a></li>
+                                    <li><a href="#">Register</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="fav">
+                                <a class="re_btn" href="#">
+                                    <span class="lnr lnr-heart"></span>
+                                </a>
+                            </li>
+
+                            <li class="cart">
+                                <a class="re_btn" href="#">
+                                    <span class="lnr lnr-cart"></span>
+                                </a>
+                            </li>
+                            <li class="lang lg dropdown">
+                              <a href="index-en.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                <img class="i_lang" src="images/lang-en.png" alt="language">English
+                               <span class="lnr lnr-chevron-down chev"></span>
+                              </a>
+                              <ul class="dropdown-menu sam_menu">
+                                <li>
+                                    <a href="index.html">
+                                        <img class="i_lang" src="images/lang-ar.png" alt="language">العربية
+                                    </a>
+                                </li>
+                              </ul>
+                            </li> 
+                        </ul>
+                    </div>
+                </div> 
+            </div>
+        </header>
+        <!--------------- end header ---------------->
+	        
+	        
+	        <!-------------------start sidenav------------------->
+		<div id="mySidenav" class="sidenav">
+            <span href="#" class="lnr lnr-cross closebtn"></span>
+            <div class="lang sm dropdown">
+              <a href="index-en.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                <img class="i_lang" src="images/lang-en.png" alt="language">English
+                <span class="lnr lnr-chevron-down chev"></span> 
+              </a>
+              <ul class="dropdown-menu sam_menu">
+                <li>
+                    <a href="index.html">
+                        <img class="i_lang" src="images/lang-ar.png" alt="language">العربية
+                    </a>
+                </li>
+              </ul>
+            </div>
+            <ul class="list-unstyled side_ul">
+                <li><a class="direct" href="#">Home</a></li>
+                <li class="mob_cat">
+					<a class="direct mob_pros" href="#" data-toggle="collapse" data-target="#id1" aria-expanded="false">Account</a>
+					<ul class="mob_menu list-unstyled collapse" id="id1">
+						<li class="sub_cat">
+							<a class="mob_item" href="#">Log In</a>
+						</li>
+						<li class="sub_cat">
+							<a class="mob_item" href="#">Register</a>
+						</li>
+						<li class="sub_cat">
+							<a class="mob_item" href="#">Wish List</a>
+						</li>
+					</ul>
+				</li>
+				<li><a class="direct" href="#">Rannah Products</a></li>
+				<li><a class="direct" href="#"> Rannah Accessories </a></li>
+				<li><a class="direct" href="#">Offers</a></li>
+			</ul>
+		</div>
+		<!-------------------end sidenav------------------->
+	        
+	        <!--------------- start search modal ---------------->
+		<div class="modal fade bs-example-modal-sm over_mod" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				<span aria-hidden="true" class="lnr lnr-cross"></span>
+			</button>
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="searchbox">
+						<input class="searchinput" id="search" placeholder="Search" type="search">
+						<span class="changed"></span>
+						<button class="search_icon"type="submit"><span class="lnr lnr-magnifier"></span></button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--------------- end search modal ---------------->
+		
+		
+		<!------------------------------Slider---------------------------------->
+        <div class="slider">
+			<div class="mainslider owl-carousel">
+				<div class="slideitem">
+					<a href="#"><img class="img-responsive" src="images/slider.jpg"></a>
+				</div>
+				<div class="slideitem">
+					<a href="#"><img class="img-responsive" src="images/slider.jpg"></a>
+				</div>
+				<div class="slideitem">
+					<a href="#"><img class="img-responsive" src="images/slider.jpg"></a>
+				</div>
+				<div class="slideitem">
+					<a href="#"><img class="img-responsive" src="images/slider.jpg"></a>
+				</div>
+			</div>
+		</div>
+         <!------------------------------End Slider---------------------------------->
+		
+		
+		<section class="our_offers">
+		    <div class="container">
+                <h3 class="pr_title">Special Offers</h3>
+            
+                <div class="owl-carousel pro_slider owl-theme">
+                    <div class="item pro">
+                        <div class="pr_tent">
+                            <div class="pr_photo">
+                                <img src="images/p-1.png" alt="product">
+                                <a href="#" class="p_see">
+                                    <span class="lnr lnr-eye"></span>
+                                </a>
+                            </div>
+                            <div class="info"> 
+                                <a class="pro_name" href="#" data-text="Product Name" >Product Name</a> 
+                                <div class="rate">
+                                    <span class="active"><i class="fas fa-star"></i></span>
+                                    <span class="active"><i class="fas fa-star"></i></span>
+                                    <span class="active"><i class="fas fa-star"></i></span>
+                                    <span class="active"><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                </div>
+                                <ul class="price list-unstyled list-inline">
+                                    <li class="cur">180 SAR</li>
+                                    <li class="pre">200 SAR</li>
+                                </ul>
+                                <div class="pr_act">
+                                    <a href="#">
+                                        <span class="lnr lnr-cart"></span> Add To Cart
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item pro">
+                        <div class="pr_tent">
+                            <div class="pr_photo">
+                                <img src="images/p2.png" alt="product">
+                                <a href="#" class="p_see">
+                                    <span class="lnr lnr-eye"></span>
+                                </a>
+                            </div>
+                            <div class="info"> 
+                                <a class="pro_name" href="#" data-text="Product Name" >Product Name</a> 
+                                <div class="rate">
+                                    <span class="active"><i class="fas fa-star"></i></span>
+                                    <span class="active"><i class="fas fa-star"></i></span>
+                                    <span class="active"><i class="fas fa-star"></i></span>
+                                    <span class="active"><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                </div>
+                                <ul class="price list-unstyled list-inline">
+                                    <li class="cur">180 SAR</li>
+                                    <li class="pre">200 SAR</li>
+                                </ul>
+                                <div class="pr_act">
+                                    <a href="#">
+                                        <span class="lnr lnr-cart"></span> Add To Cart
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item pro">
+                        <div class="pr_tent">
+                            <div class="pr_photo">
+                                <img src="images/p3.png" alt="product">
+                                <a href="#" class="p_see">
+                                    <span class="lnr lnr-eye"></span>
+                                </a>
+                            </div>
+                            <div class="info"> 
+                                <a class="pro_name" href="#" data-text="Product Name" >Product Name</a> 
+                                <div class="rate">
+                                    <span class="active"><i class="fas fa-star"></i></span>
+                                    <span class="active"><i class="fas fa-star"></i></span>
+                                    <span class="active"><i class="fas fa-star"></i></span>
+                                    <span class="active"><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                </div>
+                                <ul class="price list-unstyled list-inline">
+                                    <li class="cur">180 SAR</li>
+                                    <li class="pre">200 SAR</li>
+                                </ul>
+                                <div class="pr_act">
+                                    <a href="#">
+                                        <span class="lnr lnr-cart"></span> Add To Cart
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item pro">
+                        <div class="pr_tent">
+                            <div class="pr_photo">
+                                <img src="images/p-1.png" alt="product">
+                                <a href="#" class="p_see">
+                                    <span class="lnr lnr-eye"></span>
+                                </a>
+                            </div>
+                            <div class="info"> 
+                                <a class="pro_name" href="#" data-text="Product Name" >Product Name</a> 
+                                <div class="rate">
+                                    <span class="active"><i class="fas fa-star"></i></span>
+                                    <span class="active"><i class="fas fa-star"></i></span>
+                                    <span class="active"><i class="fas fa-star"></i></span>
+                                    <span class="active"><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                </div>
+                                <ul class="price list-unstyled list-inline">
+                                    <li class="cur">180 SAR</li>
+                                    <li class="pre">200 SAR</li>
+                                </ul>
+                                <div class="pr_act">
+                                    <a href="#">
+                                        <span class="lnr lnr-cart"></span> Add To Cart
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+		    </div>
+		</section>
+		
+		
+		<section class="best_seller">
+		    <div class="container">
+                <h3 class="pr_title">Bestseller</h3>
+            
+                <div class="owl-carousel pro_slider owl-theme">
+                    <div class="item pro">
+                        <div class="pr_tent">
+                            <div class="pr_photo">
+                                <img src="images/p5.png" alt="product">
+                                <a href="#" class="p_see">
+                                    <span class="lnr lnr-eye"></span>
+                                </a>
+                            </div>
+                            <div class="info"> 
+                                <a class="pro_name" href="#" data-text="Product Name" >Product Name</a> 
+                                <div class="rate">
+                                    <span class="active"><i class="fas fa-star"></i></span>
+                                    <span class="active"><i class="fas fa-star"></i></span>
+                                    <span class="active"><i class="fas fa-star"></i></span>
+                                    <span class="active"><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                </div>
+                                <ul class="price list-unstyled list-inline">
+                                    <li class="cur">690 SAR</li>
+                                </ul>
+                                <div class="pr_act">
+                                    <a href="#">
+                                        <span class="lnr lnr-cart"></span> Add To Cart
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item pro">
+                        <div class="pr_tent">
+                            <div class="pr_photo">
+                                <img src="images/p6.png" alt="product">
+                                <a href="#" class="p_see">
+                                    <span class="lnr lnr-eye"></span>
+                                </a>
+                            </div>
+                            <div class="info"> 
+                                <a class="pro_name" href="#" data-text="Product Name" >Product Name</a> 
+                                <div class="rate">
+                                    <span class="active"><i class="fas fa-star"></i></span>
+                                    <span class="active"><i class="fas fa-star"></i></span>
+                                    <span class="active"><i class="fas fa-star"></i></span>
+                                    <span class="active"><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                </div>
+                                <ul class="price list-unstyled list-inline">
+                                    <li class="cur">690 SAR</li>
+                                </ul>
+                                <div class="pr_act">
+                                    <a href="#">
+                                        <span class="lnr lnr-cart"></span> Add To Cart
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item pro">
+                        <div class="pr_tent">
+                            <div class="pr_photo">
+                                <img src="images/p7.png" alt="product">
+                                <a href="#" class="p_see">
+                                    <span class="lnr lnr-eye"></span>
+                                </a>
+                            </div>
+                            <div class="info"> 
+                                <a class="pro_name" href="#" data-text="Product Name" >Product Name</a> 
+                                <div class="rate">
+                                    <span class="active"><i class="fas fa-star"></i></span>
+                                    <span class="active"><i class="fas fa-star"></i></span>
+                                    <span class="active"><i class="fas fa-star"></i></span>
+                                    <span class="active"><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                </div>
+                                <ul class="price list-unstyled list-inline">
+                                    <li class="cur">690 SAR</li>
+                                </ul>
+                                <div class="pr_act">
+                                    <a href="#">
+                                        <span class="lnr lnr-cart"></span> Add To Cart
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item pro">
+                        <div class="pr_tent">
+                            <div class="pr_photo">
+                                <img src="images/p8.png" alt="product">
+                                <a href="#" class="p_see">
+                                    <span class="lnr lnr-eye"></span>
+                                </a>
+                            </div>
+                            <div class="info"> 
+                                <a class="pro_name" href="#" data-text="Product Name" >Product Name</a> 
+                                <div class="rate">
+                                    <span class="active"><i class="fas fa-star"></i></span>
+                                    <span class="active"><i class="fas fa-star"></i></span>
+                                    <span class="active"><i class="fas fa-star"></i></span>
+                                    <span class="active"><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                </div>
+                                <ul class="price list-unstyled list-inline">
+                                    <li class="cur">690 SAR</li>
+                                </ul>
+                                <div class="pr_act">
+                                    <a href="#">
+                                        <span class="lnr lnr-cart"></span> Add To Cart
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+		    </div>
+		</section>
+
+		
+		
+		<section class="our_bans">
+		    <div class="container">
+		        <a href="#" class="baner">
+		            <img src="images/banner.jpg" alt="banner" class="img-responsive">
+		        </a>
+		    </div>
+		</section>
+		
+		
+		<section class="new_arrivals">
+		    <div class="container">
+                <h3 class="pr_title">New Arrivals</h3>
+            
+                <div class="owl-carousel pro_slider owl-theme">
+                    <div class="item pro">
+                        <div class="pr_tent">
+                            <div class="pr_photo">
+                                <img src="images/p-1.png" alt="product">
+                                <a href="#" class="p_see">
+                                    <span class="lnr lnr-eye"></span>
+                                </a>
+                            </div>
+                            <div class="info"> 
+                                <a class="pro_name" href="#" data-text="Product Name" >Product Name</a> 
+                                <div class="rate">
+                                    <span class="active"><i class="fas fa-star"></i></span>
+                                    <span class="active"><i class="fas fa-star"></i></span>
+                                    <span class="active"><i class="fas fa-star"></i></span>
+                                    <span class="active"><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                </div>
+                                <ul class="price list-unstyled list-inline">
+                                    <li class="cur">180 SAR</li>
+                                    <li class="pre">200 SAR</li>
+                                </ul>
+                                <div class="pr_act">
+                                    <a href="#">
+                                        <span class="lnr lnr-cart"></span> Add To Cart
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item pro">
+                        <div class="pr_tent">
+                            <div class="pr_photo">
+                                <img src="images/p2.png" alt="product">
+                                <a href="#" class="p_see">
+                                    <span class="lnr lnr-eye"></span>
+                                </a>
+                            </div>
+                            <div class="info"> 
+                                <a class="pro_name" href="#" data-text="Product Name" >Product Name</a> 
+                                <div class="rate">
+                                    <span class="active"><i class="fas fa-star"></i></span>
+                                    <span class="active"><i class="fas fa-star"></i></span>
+                                    <span class="active"><i class="fas fa-star"></i></span>
+                                    <span class="active"><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                </div>
+                                <ul class="price list-unstyled list-inline">
+                                    <li class="cur">180 SAR</li>
+                                    <li class="pre">200 SAR</li>
+                                </ul>
+                                <div class="pr_act">
+                                    <a href="#">
+                                        <span class="lnr lnr-cart"></span> Add To Cart
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item pro">
+                        <div class="pr_tent">
+                            <div class="pr_photo">
+                                <img src="images/p3.png" alt="product">
+                                <a href="#" class="p_see">
+                                    <span class="lnr lnr-eye"></span>
+                                </a>
+                            </div>
+                            <div class="info"> 
+                                <a class="pro_name" href="#" data-text="Product Name" >Product Name</a> 
+                                <div class="rate">
+                                    <span class="active"><i class="fas fa-star"></i></span>
+                                    <span class="active"><i class="fas fa-star"></i></span>
+                                    <span class="active"><i class="fas fa-star"></i></span>
+                                    <span class="active"><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                </div>
+                                <ul class="price list-unstyled list-inline">
+                                    <li class="cur">180 SAR</li>
+                                    <li class="pre">200 SAR</li>
+                                </ul>
+                                <div class="pr_act">
+                                    <a href="#">
+                                        <span class="lnr lnr-cart"></span> Add To Cart
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item pro">
+                        <div class="pr_tent">
+                            <div class="pr_photo">
+                                <img src="images/p-1.png" alt="product">
+                                <a href="#" class="p_see">
+                                    <span class="lnr lnr-eye"></span>
+                                </a>
+                            </div>
+                            <div class="info"> 
+                                <a class="pro_name" href="#" data-text="Product Name" >Product Name</a> 
+                                <div class="rate">
+                                    <span class="active"><i class="fas fa-star"></i></span>
+                                    <span class="active"><i class="fas fa-star"></i></span>
+                                    <span class="active"><i class="fas fa-star"></i></span>
+                                    <span class="active"><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                </div>
+                                <ul class="price list-unstyled list-inline">
+                                    <li class="cur">180 SAR</li>
+                                    <li class="pre">200 SAR</li>
+                                </ul>
+                                <div class="pr_act">
+                                    <a href="#">
+                                        <span class="lnr lnr-cart"></span> Add To Cart
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+		    </div>
+		</section>
+		
+		
+		
+		<section class="our_partners">
+		    <div class="container">
+		        <div class="owl-carousel par_slider owl-theme">
+                    <div class="item brads">
+                        <a href="#" class="pa_photo">
+                            <img src="images/r1.png" alt="product">
+                        </a>
+                    </div>
+                    <div class="item brads">
+                        <a href="#" class="pa_photo">
+                            <img src="images/r2.png" alt="product">
+                        </a>
+                    </div><div class="item brads">
+                        <a href="#" class="pa_photo">
+                            <img src="images/r3.png" alt="product">
+                        </a>
+                    </div><div class="item brads">
+                        <a href="#" class="pa_photo">
+                            <img src="images/r4.png" alt="product">
+                        </a>
+                    </div><div class="item brads">
+                        <a href="#" class="pa_photo">
+                            <img src="images/r5.png" alt="product">
+                        </a>
+                    </div><div class="item brads">
+                        <a href="#" class="pa_photo">
+                            <img src="images/r6.png" alt="product">
+                        </a>
+                    </div><div class="item brads">
+                        <a href="#" class="pa_photo">
+                            <img src="images/r7.png" alt="product">
+                        </a>
+                    </div><div class="item brads">
+                        <a href="#" class="pa_photo">
+                            <img src="images/r8.png" alt="product">
+                        </a>
+                    </div><div class="item brads">
+                        <a href="#" class="pa_photo">
+                            <img src="images/r9.png" alt="product">
+                        </a>
+                    </div>   
+                </div>
+		    </div>
+		</section>
+		
+		
+		
+		<footer>
+            <div class="mail_list">
+                <div class="container">
+                    <div class="mail_content">
+                        <ul class="list-unstyled list-inline im_cap">
+                            <li><img src="images/mail.png" alt="envelope"></li>
+                            <li>Subscribe to the Newsletter for new offers and products</li>
+                        </ul>
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="  Enter Email">
+                            <span class="changed"></span>
+                            <button class="check">Subscribe</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+		    <div class="container">
+				<div class="row">
+				    <div class="col-md-4">
+                        <h5 class="title">About Rannah</h5>
+                        <div class="about_ran">
+                            There is a proven fact from a long time ago that the readable content of a page will not distract the reader from focusing on the external appearance
+                                            For text or form, paragraphs are placed on the page he reads
+                        </div>
+				    </div>
+					<div class="col-md-2">
+						<div class="fast_links">
+							<h5 class="title sm_title" data-toggle="collapse" data-target="#id10" aria-expanded="false">Information</h5>
+							<ul class="list-unstyled collapse" id="id10">
+								<li><a href="#" data-text="About Us">About Us </a></li>
+								<li><a href="#" data-text="Shipping & Delivery">Shipping & Delivery</a></li>
+								<li><a href="#" data-text="Bank Accounts"> Bank Accounts</a></li>
+								<li><a href="#" data-text="Privacy">Privacy</a></li>
+								<li><a href="#" data-text="Terms of Use"> Terms of Use</a></li>
+							</ul>
+						</div>
+					</div>
+					
+					<div class="col-md-2">
+						<div class="fast_links">
+							<h5 class="title sm_title" data-toggle="collapse" data-target="#id12" aria-expanded="false">Additions</h5>
+							<ul class="list-unstyled collapse" id="id12">
+								<li><a href="#" data-text="Brands">Brands</a></li>
+								<li><a href="#" data-text="Gift Vouchers">Gift Vouchers</a></li>
+								<li><a href="#" data-text="Affiliate"> Affiliate</a></li>
+								<li><a href="#" data-text="Special Offers">Special Offers</a></li>
+							</ul>
+						</div>
+					</div>
+					
+					<div class="col-md-2">
+						<div class="fast_links">
+							<h5 class="title sm_title" data-toggle="collapse" data-target="#id11" aria-expanded="false">Clients Service</h5>
+							<ul class="list-unstyled collapse" id="id11">
+								<li><a href="#" data-text="Contact Us">Contact Us</a></li>
+								<li><a href="#" data-text="Returns">Returns</a></li>
+								<li><a href="#" data-text="Site Map">Site Map</a></li>
+							</ul>
+						</div>
+					</div>
+					
+					<div class="col-md-2">
+						<div class="social">
+                           <h5 class="title">Follow Us</h5>
+                            <a href="#" class="hvr-radial-out icon"><i class="fab fa-whatsapp"></i></a>
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-snapchat-ghost"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                        </div>
+					</div>
+                </div>
+                <div class="fo_pay-soc">
+                    <div class="copy_rghts">
+                       © All rights reserved, Rinnah Store   
+                    </div>
+                    <div class="fo_p">
+                        <a href="#"><img src="images/pay.png" alt="payment"></a>
+                    </div>
+                    <div class="mad_in">  Made By <a href="#"><img src="images/tasawk-c-en2.png"></a></div>
+                </div>
+                
+                
+            </div>
+		</footer>
+
+	</body>
+</html> 
